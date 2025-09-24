@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "essays-site"
+version = "0.1.0"
+description = "Pelican-based static site for essays.mattlebrun.com"
+authors = [
+    { name = "Matt Lebrun" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "pelican[markdown]>=4.9",
+    "ghp-import>=2.1.0"
+]
