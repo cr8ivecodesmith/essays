@@ -1,17 +1,8 @@
-Matt Lebrun's Blog
-==================
+# Matt Lebrun's Essays Site
 
 NOTE:
 
 Clone this repo then clone the theme repo within this directory.
-
-
-## Requirements
-
-- Ubuntu 16.04+
-- Python 3.5+
-- Git
-- [Zenmatt](https://github.com/cr8ivecodesmith/zenmatt) theme
 
 
 ## Development setup
@@ -19,33 +10,36 @@ Clone this repo then clone the theme repo within this directory.
 1) Make a virtual environment and install the requirements
 
 ```
-$ python3 -m venv v
-$ . v/bin/activate
-(v) $ pip install -r requirements.txt
+uv venv -p 3.13
 ```
 
-2) Clone the [zenmatt](https://github.com/cr8ivecodesmith/zenmatt) theme
+```
+direnv allow .envrc
+uv pip install -r requirements.txt
+```
+
+2) Sync the [zenmatt](https://github.com/cr8ivecodesmith/zenmatt) theme
 
 ```
-(v) $ git clone git@github.com:cr8ivecodesmith/zenmatt.git
+git submodule update --init --recursive .
 ```
 
 3) Copy the favicon to the theme folder
 
 ```
-(v) $ cp favicon.ico zenmatt/static/img/
+cp favicon.ico zenmatt/static/img/
 ```
 
 4) Run the dev server
 
 ```
-(v) $ make html; PORT=8000 make serve-global
+pelican -r -l -p 8888
 ```
 
-5) Open your [browser](http://localhost:8000)
+5) Open your [browser](http://localhost:8888)
 
 6) Deploy changes
 
 ```
-(v) $ make github
+make github
 ```
