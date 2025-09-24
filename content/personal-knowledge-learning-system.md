@@ -2,6 +2,7 @@ Title: Connecting, Practicing, Reflecting: Toward a Personal Knowledge & Learnin
 Date:  2025-09-24 23:00
 Modified:  2025-09-24 23:00
 Status: published
+Slug: personal-knowledge-learning-system
 Category: learning/systems
 Tags: personal-knowledge-management, cognitive-science, lifelong-learning
 Summary: An essay on why today’s learning tools fall short and how a Personal Knowledge & Learning System could better support growth through connection, practice, and reflection.
