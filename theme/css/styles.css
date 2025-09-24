@@ -1,0 +1,79 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.main-container {
+    max-width: 65%;
+}
+
+.archive-filter {
+    overflow-x: auto;
+}
+
+#article {
+  max-width: 100%;
+}
+
+.highlight pre {
+  white-space: pre;
+  width: inherit;
+  overflow-x: auto;       // this sets the scrolling in x
+}
+
+.highlight pre code {
+  white-space: pre;       // forces <code> to respect <pre> formatting
+}
+
+.highlight pre code * {
+  white-space: nowrap;    // this sets all children inside to nowrap
+}
+
+.zenm-media-max {
+    max-width: 80%!important;
+}
+
+.copy-left {
+    display: inline-block;
+    text-align: right;
+    margin: 0px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: “FlipH”;
+}
+
+.section-top, .section-top-md {
+    padding-top: 2rem;
+}
+
+.section-top-sm {
+    padding-top: 1rem;
+}
+
+.section-top-lg {
+    padding-top: 3rem;
+}
+
+.section-bot, .section-bot-md {
+    padding-bottom: 2rem;
+}
+
+.section-bot-sm {
+    padding-bottom: 1rem;
+}
+
+.section-bot-lg {
+    padding-bottom: 3rem;
+}
+
+.main-header, .main-header a {
+    font-size: 1.3em;
+    color: #333!important;
+}
+
+.archive-link, .archive-link a {
+    color: #333!important;
+}
