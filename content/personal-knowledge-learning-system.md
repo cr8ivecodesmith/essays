@@ -1,7 +1,7 @@
 Title: Connecting, Practicing, Reflecting: Toward a Personal Knowledge & Learning System
 Date:  2025-09-24 23:00
 Modified:  2025-09-24 23:00
-Status: published
+Status: draft
 Slug: personal-knowledge-learning-system
 Category: learning/systems
 Tags: personal-knowledge-management, cognitive-science, lifelong-learning
